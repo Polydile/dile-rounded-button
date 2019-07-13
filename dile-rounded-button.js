@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit-element';
 
-class EitRoundedButton  extends LitElement {
+export class DileRoundedButton  extends LitElement {
 
   static get styles() {
     return css`
@@ -63,10 +63,9 @@ class EitRoundedButton  extends LitElement {
     `;
   }
 
-  onClick() {
-    console.log('click');
+  onClick(e) {
     this.dispatchEvent(new CustomEvent('dile-rounded-button-click'));
   }
 }
 
-customElements.define('dile-rounded-button', EitRoundedButton);
+customElements.define('dile-rounded-button', DileRoundedButton);
