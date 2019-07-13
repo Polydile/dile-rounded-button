@@ -2,6 +2,8 @@
 
 Web component to implement a styled button, with background color and rounded corners. Based on LitElement.
 
+Go to [DEMOS page](https://dile-rounded-button.polydile.com)!
+
 ## Properties
 
 - **disabled**: Boolean property to make the button disabled.
