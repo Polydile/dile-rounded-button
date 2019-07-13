@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Demo de dile-rounded-button</title>
+  <style>
+    .customized {
+      --dile-rounded-button-background-color: #004c3c;
+      --dile-rounded-button-text-color: #cff;
+      --dile-rounded-button-hover-background-color: #3ff;
+      --dile-rounded-button-hover-text-color: #000;
+      --dile-rounded-button-animation-time: 1s;
+      --dile-rounded-button-height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <dile-rounded-button>Texto del botón</dile-rounded-button>
+  <dile-rounded-button class="customized">Clic aquí</dile-rounded-button>
+  <dile-rounded-button disabled>Botón desactivado</dile-rounded-button>
+
+  <script src="../dile-rounded-button.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "dile-rounded-button",
+  "version": "1.0.0",
+  "description": "Web component to implement a button",
+  "main": "dile-rounded-button.js",
+  "dependencies": {
+    "lit-element": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Polydile/dile-rounded-button.git"
+  },
+  "keywords": [
+    "button",
+    "lit-element",
+    "web",
+    "component",
+    "interface"
+  ],
+  "author": "@midesweb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Polydile/dile-rounded-button/issues"
+  },
+  "homepage": "https://github.com/Polydile/dile-rounded-button#readme"
+}
