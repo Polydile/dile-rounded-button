@@ -20,6 +20,10 @@ Custom property | Description | Default
 --dile-rounded-button-hover-background-color | Button hover background color | #303030
 --dile-rounded-button-hover-text-color | Button hover text color | #fff
 --dile-rounded-button-animation-time | Hover button color animation | 0.3s
+--dile-rounded-button-padding-x | Horizontal padding | 20px
+--dile-rounded-button-padding-y | Vertical padding | 5px
+--dile-rounded-button-text-transform | Text transform | uppercase
+--dile-rounded-button-font-size | Button text size | 1em
 
 ## Events
 

@@ -17,7 +17,11 @@ export class DileRoundedButton  extends LitElement {
         display: inline-block;
         line-height: normal;
         margin: 0;
-        padding: 5px 20px;
+        padding-left: var(--dile-rounded-button-padding-x, 20px);
+        padding-right: var(--dile-rounded-button-padding-x, 20px);
+        padding-top: var(--dile-rounded-button-padding-y, 5px);
+        padding-bottom: var(--dile-rounded-button-padding-y, 5px);
+
         position: relative;
         text-decoration: none;
         -webkit-user-select: none;
@@ -25,8 +29,8 @@ export class DileRoundedButton  extends LitElement {
         -ms-user-select: none;
         user-select: none;
         border-radius: var(--dile-rounded-button-height, 30px);
-        font-size: 12px;
-        text-transform: uppercase;
+        font-size: var(--dile-rounded-button-font-size, 1em);
+        text-transform: var(--dile-rounded-button-text-transform, uppercase);
         height: var(--dile-rounded-button-height, 30px);
         text-align: center;
         transition: all var(--dile-rounded-button-animation-time, 0.3s) ease;

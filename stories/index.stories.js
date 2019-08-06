@@ -24,9 +24,23 @@ storiesOf('dile-rounded-button', module)
           --dile-rounded-button-hover-text-color: #000;
           --dile-rounded-button-animation-time: 1s;
           --dile-rounded-button-height: 20px;
+          --dile-rounded-button-font-size: 12px;
         }
       </style>
       <dile-rounded-button class="customized">Click Here</dile-rounded-button>
+      `,
+  )
+  .add(
+    'Customized 2',
+    () => html`
+      <style>
+        .customized {
+          --dile-rounded-button-padding-x: 58px;
+          --dile-rounded-button-padding-y: 10px;
+          --dile-rounded-button-text-transform: none;
+        }
+      </style>
+      <dile-rounded-button class="customized2">Search</dile-rounded-button>
       `,
   )
   .add(
