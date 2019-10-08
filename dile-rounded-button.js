@@ -8,8 +8,10 @@ export class DileRoundedButton  extends LitElement {
         display: inline-block;
       }
       button {
+        box-sizing: content-box !important;
+
         border-color: transparent;
-        border-radius: 30px;
+        border-radius: var(--dile-rounded-button-border-radius, 30px);
         border-style: solid;
         border-width: 1px;
         box-sizing: inherit;
@@ -30,6 +32,7 @@ export class DileRoundedButton  extends LitElement {
         user-select: none;
         border-radius: var(--dile-rounded-button-height, 30px);
         font-size: var(--dile-rounded-button-font-size, 1em);
+        font-weight: var(--dile-rounded-button-font-weight, normal);
         text-transform: var(--dile-rounded-button-text-transform, uppercase);
         height: var(--dile-rounded-button-height, 30px);
         text-align: center;

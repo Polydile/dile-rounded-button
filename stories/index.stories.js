@@ -17,6 +17,9 @@ storiesOf('dile-rounded-button', module)
     'Customized button',
     () => html`
       <style>
+      *{
+        box-sizing: border-box;
+      }
         .customized {
           --dile-rounded-button-background-color: #004c3c;
           --dile-rounded-button-text-color: #cff;
@@ -26,8 +29,18 @@ storiesOf('dile-rounded-button', module)
           --dile-rounded-button-height: 20px;
           --dile-rounded-button-font-size: 12px;
         }
+        .c2 {
+          --dile-rounded-button-font-size: 1.125em;
+          --dile-rounded-button-font-weight: bold;
+          --dile-rounded-button-text-transform: none;
+          --dile-rounded-button-padding-x: 2.45em;
+          --dile-rounded-button-padding-y: 1em;
+
+        }
       </style>
       <dile-rounded-button class="customized">Click Here</dile-rounded-button>
+      
+      <dile-rounded-button class="c2">Buy now</dile-rounded-button>
       `,
   )
   .add(

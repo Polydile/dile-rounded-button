@@ -24,6 +24,7 @@ Custom property | Description | Default
 --dile-rounded-button-padding-y | Vertical padding | 5px
 --dile-rounded-button-text-transform | Text transform | uppercase
 --dile-rounded-button-font-size | Button text size | 1em
+--dile-rounded-button-font-weight | Button font weight | normal
 
 ## Events
 
